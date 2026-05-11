@@ -1,0 +1,12 @@
+{
+  "buildCommand": "pip install -r requirements.txt",
+  "outputDirectory": ".",
+  "functions": {
+    "api/process.py": {
+      "runtime": "python3.9"
+    }
+  },
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api/$1.py" }
+  ]
+}
