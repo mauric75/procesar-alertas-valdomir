@@ -1,0 +1,8 @@
+{
+  "name": "procesar-alertas-valdomir",
+  "version": "1.0.0",
+  "description": "Procesa alertas de Google sobre Sebasti\u00e1n Valdomir",
+  "scripts": {
+    "dev": "python3 procesar_alertas_valdomir.py"
+  }
+}
